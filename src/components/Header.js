@@ -44,13 +44,9 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </button>
+          <a target="_blank" rel="noopener noreferrer" href="https://michaeldichello.typeform.com/to/U1qEGH">
+            <button>Contact</button>
+          </a>
         </li>
       </ul>
     </nav>
