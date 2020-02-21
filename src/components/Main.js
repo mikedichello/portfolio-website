@@ -2,8 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import mike from '../images/pic01.jpg'
 import resume from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import lorem from '../images/Lorem-Collage.jpg'
 import pdf from '../images/Resume.pdf'
+import pieCharter from '../images/pie-charter.jpg'
+import plotMaster from '../images/plotMaster.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -93,61 +96,29 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={lorem} alt="" />
           </span>
-          <button style={{margin:20 + "px"}}>View Demo</button> <button>View Code</button>
+          <h2 className="major">Lorem-Simpson</h2>        
           <p>
-
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
-          <h2 className="major">Projects</h2>
+          Lorem Simpson is a full-stack CRUD (Create, Read, Update, Delete) application that allows for users to randomly generate filler text based on Lorem Ipsum, but with quotes from the television show, The Simpsons.
+          </p>          
+          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="http://lorem-simpson.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/Lorem_Simpson">View Code</a>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pieCharter} alt="" />
           </span>
+          <h2 className="major">Pie-Charter</h2>        
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
-          <button>View Demo</button> <button>View Code</button>
-          <h2 className="major">Projects</h2>
+          Pie Charter is a meal macronutrient log app. The user can input the meal macronutrients (Calories, Net Grams of Carbs, Fat, and Protein) and recall a quick visual overview of meal. 
+          </p>          
+          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="https://pie-charter-app.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/meal_planner">View Code</a>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={plotMaster} alt="" />
           </span>
+          <h2 className="major">Plot Master</h2>        
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
-          <button>View Demo</button> <button>View Code</button>
-          <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
-          <button>View Demo</button> <button>View Code</button>
+          Plot Master is a full-stack application which enables users to plan and visualize garden plots. Users are able to create plots of custom dimensions, populate these plots with their choice of plants, save plots to their user profile, and edit or delete their plots. Users also may view a custom-generated chart of all plants in their plot along with planting and harvesting timelines, and a reference page with information about all plants in the database. 
+          </p>          
+          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="https://plot-master.herokuapp.com/#/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/plot-master">View Code</a>
           {close}
         </article>        
       </div>
