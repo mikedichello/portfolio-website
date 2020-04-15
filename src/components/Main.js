@@ -6,6 +6,7 @@ import lorem from '../images/Lorem-Collage.jpg'
 import pdf from '../images/Resume.pdf'
 import pieCharter from '../images/pie-charter.jpg'
 import plotMaster from '../images/plotMaster.jpg'
+import rustic from '../images/rustic.jpg'
 
 
 class Main extends React.Component {
@@ -95,14 +96,16 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
+
           <span className="image main">
-            <img src={lorem} alt="" />
+            <img src={rustic} alt="" />
           </span>
-          <h2 className="major">Lorem-Simpson</h2>        
+          <h2 className="major">Rustic Barkeep</h2>        
           <p>
-          Lorem Simpson is a full-stack CRUD (Create, Read, Update, Delete) application that allows for users to randomly generate filler text based on Lorem Ipsum, but with quotes from the television show, The Simpsons.
+          A full-stack E-Commerce landing page demo selling home bartending supplies. Using ReactJS, Strapi, and Snipcart. 
           </p>          
-          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="http://lorem-simpson.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/Lorem_Simpson">View Code</a>
+          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="https://rustic-barkeep.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/rustic-barkeep-frontend">View Code</a>
+          
           <span className="image main">
             <img src={pieCharter} alt="" />
           </span>
@@ -111,6 +114,17 @@ class Main extends React.Component {
           Pie Charter is a meal macronutrient log app. The user can input the meal macronutrients (Calories, Net Grams of Carbs, Fat, and Protein) and recall a quick visual overview of meal. 
           </p>          
           <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="https://pie-charter-app.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/meal_planner">View Code</a>
+          
+          
+          <span className="image main">
+            <img src={lorem} alt="" />
+          </span>
+          <h2 className="major">Lorem-Simpson</h2>        
+          <p>
+          Lorem Simpson is a full-stack CRUD (Create, Read, Update, Delete) application that allows for users to randomly generate filler text based on Lorem Ipsum, but with quotes from the television show, The Simpsons.
+          </p>          
+          <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="http://lorem-simpson.herokuapp.com/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/Lorem_Simpson">View Code</a>
+          
           <span className="image main">
             <img src={plotMaster} alt="" />
           </span>
@@ -119,6 +133,7 @@ class Main extends React.Component {
           Plot Master is a full-stack application which enables users to plan and visualize garden plots. Users are able to create plots of custom dimensions, populate these plots with their choice of plants, save plots to their user profile, and edit or delete their plots. Users also may view a custom-generated chart of all plants in their plot along with planting and harvesting timelines, and a reference page with information about all plants in the database. 
           </p>          
           <a className="button link" style={{margin:20 + "px"}} target="_blank" rel="noopener noreferrer" href="https://plot-master.herokuapp.com/#/">View Demo</a> <a className="button link" style={{margin:10 + "px"}} target="_blank" rel="noopener noreferrer" href="https://github.com/mikedichello/plot-master">View Code</a>
+          
           {close}
         </article>        
       </div>
